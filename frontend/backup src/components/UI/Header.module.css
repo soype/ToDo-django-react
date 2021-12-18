@@ -1,0 +1,40 @@
+.navbar{
+    /* display: flex; */
+    text-align: center;
+    background: coral;
+    /* justify-content: space-between;
+    align-items: center; */
+}
+
+.logo{
+    margin-left: .5em;
+    padding: .5em;
+    font-size: 1.2em;
+}
+
+.commands ul{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.commands ul li{
+    margin-right: .5em;
+    margin-left: .5em;
+    list-style-type: none;
+}
+
+.login{
+    margin-right: .5em;
+    background: blue;
+    padding: .5em;
+    border-radius: .5em;
+    color: yellow;
+    transition: all .3s;
+    border: none;
+}
+
+.login:hover{
+    background-color: yellow;
+    color: blue;
+}

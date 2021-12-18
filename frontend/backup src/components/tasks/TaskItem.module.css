@@ -1,0 +1,56 @@
+.task{
+    background-color: rgb(242, 223, 223);
+    width: 30%;
+    margin: auto;
+    margin-bottom: 1em;
+    border-radius: 3em;
+    padding: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.title{
+    font-size: 1em;
+}
+
+.description{
+    font-size: .8em;
+    margin-bottom: .5em;
+}
+
+.commands{
+    display: flex;
+    justify-content: space-between;
+}
+
+.complete button{
+    background-color: lightgreen;
+    color: white;
+    border: none;
+    border-radius: 1em;
+    width: 7em;
+    padding: .5em;
+}
+
+.complete button:hover{
+    background-color: white;
+    color: lightgreen;
+}
+
+.delete{
+    text-align: right;
+}
+
+.delete button{
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 1em;
+    width: 7em;
+    padding: .5em;
+}
+
+.delete button:hover{
+    background-color: white;
+    color: red;
+}

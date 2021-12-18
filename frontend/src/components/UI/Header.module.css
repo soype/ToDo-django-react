@@ -1,0 +1,51 @@
+.navbar{
+    display: flex;
+    /* text-align: center; */
+    background: coral;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    margin-left: .5em;
+    padding: .5em;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.commands button {
+    font-size: 1em;
+    background-color: gray;
+    color: white;
+    border-radius: .5em;
+    border: none;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.commands button:hover{
+    background-color: lightgray;
+    color: black; 
+}
+
+.login{
+    margin-right: .5em;
+    font-size: 1em;
+    font-weight: bold;
+    background: blue;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: .5em;
+    color: yellow;
+    transition: all .3s;
+    border: none;
+}
+
+.login:hover{
+    background-color: yellow;
+    color: blue;
+}
